@@ -1,0 +1,1 @@
+export { TotalAddons } from './TotalAddons'

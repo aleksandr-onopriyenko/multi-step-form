@@ -4,6 +4,7 @@ import path from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: 'https://aleksandr-onopriyenko.github.io/multi-step-form/',
   plugins: [react()],
   resolve: {
     alias: {

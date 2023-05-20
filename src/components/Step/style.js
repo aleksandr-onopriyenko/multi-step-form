@@ -9,7 +9,7 @@ export const StepWrapper = styled(Step)(({ theme: { breakpoints } }) => ({
 
 export const StepLabelWrapper = styled(StepLabel)({ '.MuiStepLabel-iconContainer': { padding: 0 } })
 
-export const StepIcon = styled(Box, {
+export const StepIcon = styled('span', {
   shouldForwardProp: (prop) => !['index', 'activeStep'].includes(prop),
 })(({ theme: { spacing, breakpoints }, activeStep, index }) => ({
   width: 40,

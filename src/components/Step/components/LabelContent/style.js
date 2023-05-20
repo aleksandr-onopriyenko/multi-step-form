@@ -1,6 +1,6 @@
 import { Box, Typography, styled } from '@mui/material'
 
-export const LabelContentWrapper = styled(Box)(({ theme }) => ({
+export const LabelContentWrapper = styled('span')(({ theme }) => ({
   [theme.breakpoints.up('xs')]: {
     display: 'none',
   },

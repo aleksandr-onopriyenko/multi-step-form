@@ -38,4 +38,6 @@ export const FormButtonSubmit = styled(Button, {
   '&:hover,&:focus': {
     backgroundColor: activeStep !== stepLength - 1 ? '#17498D' : '#938CFD',
   },
+  borderRadius: '10px',
+  paddingInline: '30px',
 }))

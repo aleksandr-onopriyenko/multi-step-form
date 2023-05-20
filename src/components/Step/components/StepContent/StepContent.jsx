@@ -5,10 +5,12 @@ import { ContentWrapper } from './style'
 
 export const StepContent = ({ title, subtitle, children }) => {
   return (
-    <ContentWrapper>
+    <ContentWrapper component="section">
       {title && subtitle && (
-        <Box>
-          <Typography variant="h4">{title}</Typography>
+        <Box component="header">
+          <Typography component="h1" variant="h4">
+            {title}
+          </Typography>
           <Typography variant="subtitle1">{subtitle}</Typography>
         </Box>
       )}

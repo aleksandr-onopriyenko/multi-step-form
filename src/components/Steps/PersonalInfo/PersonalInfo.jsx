@@ -8,12 +8,7 @@ export const PersonalInfo = ({ register }) => {
   return (
     <>
       <PersonalInfoInput>
-        <FormInput
-          register={register}
-          field="name"
-          label="Name"
-          placeholder="e.g. stephenking@lorem.com"
-        />
+        <FormInput register={register} field="name" label="Name" placeholder="e.g. Stephen King" />
       </PersonalInfoInput>
 
       <PersonalInfoInput>
@@ -21,7 +16,7 @@ export const PersonalInfo = ({ register }) => {
           register={register}
           field="email"
           label="Email Address"
-          placeholder="e.g. Stephen King"
+          placeholder="e.g. e.g. stephenking@lorem.com"
         />
       </PersonalInfoInput>
 

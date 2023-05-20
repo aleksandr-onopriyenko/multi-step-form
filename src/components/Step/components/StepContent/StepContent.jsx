@@ -11,7 +11,9 @@ export const StepContent = ({ title, subtitle, children }) => {
           <Typography component="h1" variant="h4">
             {title}
           </Typography>
-          <Typography variant="subtitle1">{subtitle}</Typography>
+          <Typography component="h2" variant="subtitle1">
+            {subtitle}
+          </Typography>
         </Box>
       )}
       {children}

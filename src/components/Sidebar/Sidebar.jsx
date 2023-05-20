@@ -4,9 +4,9 @@ import { SideBarWrapper } from './style'
 
 export const Sidebar = ({ children, ...props }) => {
   return (
-    <SideBarWrapper {...props}>
-      <aside>{children}</aside>
-    </SideBarWrapper>
+    <aside>
+      <SideBarWrapper {...props}>{children}</SideBarWrapper>
+    </aside>
   )
 }
 

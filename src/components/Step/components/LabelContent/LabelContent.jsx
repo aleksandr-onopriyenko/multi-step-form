@@ -5,8 +5,12 @@ import { LabelContentWrapper, LabelDescriptionWrapper, LabelTitleWrapper } from 
 export const LabelContent = ({ description, label }) => {
   return (
     <LabelContentWrapper>
-      <LabelTitleWrapper variant="subtitle2">{label}</LabelTitleWrapper>
-      <LabelDescriptionWrapper>{description}</LabelDescriptionWrapper>
+      <LabelTitleWrapper component="span" variant="subtitle2">
+        {label}
+      </LabelTitleWrapper>
+      <LabelDescriptionWrapper component="span" sx={{ display: 'block' }}>
+        {description}
+      </LabelDescriptionWrapper>
     </LabelContentWrapper>
   )
 }

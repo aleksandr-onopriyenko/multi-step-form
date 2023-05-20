@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Deploy [Multi-step form](https://your-live-site-url.com)
+- Deploy [Multi-step form](https://aleksandr-onopriyenko.github.io/multi-step-form/)
 
 ## My process
 
